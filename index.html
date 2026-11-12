@@ -1,66 +1,64 @@
-
 <!DOCTYPE html>
 <html lang="uk">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Мої улюбленці</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body id="home-page">
 
-    <header>
-        <h1>Мої улюбленці</h1>
-        <nav>
-            <a href="index.html">Головна</a> |
-            <a href="pages/gallery.html">Галерея</a> |
-            <a href="pages/contact.html">Контакти</a>
+    <header class="site-header">
+        <h1 class="site-title">Мої улюбленці</h1>
+        <nav class="main-nav">
+            <a href="index.html" class="nav-link">Головна</a>
+            <a href="pages/gallery.html" class="nav-link">Галерея</a>
+            <a href="pages/contact.html" class="nav-link">Контакти</a>
         </nav>
     </header>
 
-    <hr>
+    <main class="content">
+        <section id="intro" class="content-section">
+            <h2 class="section-title">Привіт! Мене звати Вова</h2>
+            <p class="intro-text">
+                Я люблю тварин, особливо собак і котів.
+                Вони дарують гарний настрій, радість та позитивні емоції.
+                На цій сторінці я хочу розповісти про своїх улюбленців.
+            </p>
+        </section>
 
-    <main>
-        <h2>Привіт! Мене звати Вова</h2>
+        <section id="buddy" class="pet-section">
+            <h2 class="section-title">Мій собака — Бадді</h2>
+            <img src="photo/buddy.jpg" alt="Собака Бадді" class="pet-image">
+            <p class="pet-description">
+                Бадді — мій веселий та активний собака.
+                Він любить прогулянки, ігри та увагу.
+                Бадді дуже дружній, розумний і відданий.
+            </p>
+        </section>
 
-        <p>
-            Я люблю тварин, особливо собак і котів.
-            Вони дарують гарний настрій, радість та позитивні емоції.
-            На цій сторінці я хочу розповісти про своїх улюбленців.
-        </p>
+        <section id="luna" class="pet-section">
+            <h2 class="section-title">Моя кішка — Луна</h2>
+            <img src="photo/luna.jpg" alt="Кішка Луна" class="pet-image">
+            <p class="pet-description">
+                Луна — спокійна та ласкава кішка.
+                Вона любить відпочивати, гратися з іграшками
+                та проводити час поруч зі мною.
+            </p>
+        </section>
 
-        <h2>Мій собака — Бадді</h2>
-
-        <img src="photo/buddy.jpg" alt="Собака Бадді" width="350">
-
-        <p>
-            Бадді — мій веселий та активний собака.
-            Він любить прогулянки, ігри та увагу.
-            Бадді дуже дружній, розумний і відданий.
-        </p>
-
-        <h2>Моя кішка — Луна</h2>
-
-        <img src="photo/luna.jpg" alt="Кішка Луна" width="350">
-
-        <p>
-            Луна — спокійна та ласкава кішка.
-            Вона любить відпочивати, гратися з іграшками
-            та проводити час поруч зі мною.
-        </p>
-
-        <h2>Мої інтереси</h2>
-
-        <ul>
-            <li>Тварини та догляд за ними</li>
-            <li>Комп'ютери та технології</li>
-            <li>Подорожі</li>
-            <li>Прогулянки на свіжому повітрі</li>
-        </ul>
+        <section id="interests" class="content-section">
+            <h2 class="section-title">Мої інтереси</h2>
+            <ul class="interests-list">
+                <li>Тварини та догляд за ними</li>
+                <li>Комп'ютери та технології</li>
+                <li>Подорожі</li>
+                <li>Прогулянки на свіжому повітрі</li>
+            </ul>
+        </section>
     </main>
 
-    <hr>
-
-    <footer>
+    <footer class="site-footer">
         <p>© 2026 Мої улюбленці</p>
     </footer>
 

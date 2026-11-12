@@ -1,0 +1,108 @@
+/* Загальні стилі сторінки */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #263238;
+    background-color: #f4f7f6;
+}
+
+/* Шапка та навігація */
+.site-header {
+    padding: 30px 20px;
+    text-align: center;
+    color: white;
+    background-color: #2f6f68;
+}
+
+.site-title {
+    margin: 0 0 15px;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 22px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+/* Основний вміст */
+.content {
+    width: 90%;
+    max-width: 900px;
+    margin: 30px auto;
+}
+
+.content-section,
+.pet-section {
+    margin-bottom: 28px;
+    padding: 24px;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.section-title {
+    margin-top: 0;
+    color: #2f6f68;
+}
+
+.intro-text,
+.pet-description {
+    margin-bottom: 0;
+}
+
+.pet-image {
+    display: block;
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    margin: 15px 0;
+    border-radius: 10px;
+}
+
+.interests-list {
+    padding-left: 22px;
+}
+
+.interests-list li {
+    margin-bottom: 8px;
+}
+
+/* Підвал сторінки */
+.site-footer {
+    padding: 18px;
+    text-align: center;
+    color: white;
+    background-color: #263f3b;
+}
+
+.site-footer p {
+    margin: 0;
+}
+
+/* Невеликі екрани */
+@media (max-width: 600px) {
+    .content {
+        width: 94%;
+        margin: 18px auto;
+    }
+
+    .content-section,
+    .pet-section {
+        padding: 18px;
+    }
+}
